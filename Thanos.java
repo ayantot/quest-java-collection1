@@ -44,7 +44,7 @@ public class Thanos {
 
         // TODO 4 : Shuffle the heroes list
 
-        List<Hero> list = Arrays.asList(hero1, hero2, hero3, hero4, hero5, hero6, hero7, hero8, hero9);
+        Collections.shuffle(lunch);
 
         // TODO 5 : Keep only the half of the list
         lunch.remove(0);
